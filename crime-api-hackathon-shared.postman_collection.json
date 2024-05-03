@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "d697c47f-c492-4412-9b1a-6bf11869a384",
+		"name": "crime-api-hackathon-shared",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19922699"
+	},
+	"item": [
+		{
+			"name": "Read crime by ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "APIKEY",
+						"uuid": "dfe400a1-bd24-4c2e-add6-41931b25597c"
+					}
+				],
+				"url": {
+					"raw": "http://196.216.68.98:8021/crimes?id=1",
+					"protocol": "http",
+					"host": [
+						"196",
+						"216",
+						"68",
+						"98"
+					],
+					"port": "8021",
+					"path": [
+						"crimes"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all crimes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "APIKEY",
+						"uuid": "5f1bd2b7-b31b-4289-8abe-f49427af324e"
+					}
+				],
+				"url": {
+					"raw": "http://196.216.68.98:8021/crimes",
+					"protocol": "http",
+					"host": [
+						"196",
+						"216",
+						"68",
+						"98"
+					],
+					"port": "8021",
+					"path": [
+						"crimes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all crimes by location",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "APIKEY",
+						"uuid": "3c646539-3fd4-4d78-9365-42ce8e6ef75b"
+					}
+				],
+				"url": {
+					"raw": "http://196.216.68.98:8021/crimes-at-location?latitude=52.643950&longitude=-1.143042",
+					"protocol": "http",
+					"host": [
+						"196",
+						"216",
+						"68",
+						"98"
+					],
+					"port": "8021",
+					"path": [
+						"crimes-at-location"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "52.643950"
+						},
+						{
+							"key": "longitude",
+							"value": "-1.143042"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create crime at location",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "APIKEY",
+						"uuid": "79a8bf56-97e5-4b66-a4ff-8834d68fd4c2"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"occurrence_date\": \"2020-05-03\",\n    \"occurrence_time\": \"08:23:01\",\n    \"category\": \"violent-crime\",\n    \"neighbourhood\": \"neighbourhoodname3\",\n    \"location\": {\n        \"latitude\": \"59.643950\",\n        \"street_address\": {\n            \"name\": \"9 streetname apartment 4\",\n            \"road_name\": \"streetname9\"\n        },\n        \"longitude\": \"-1.943042\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://196.216.68.98:8021/crimes-at-location",
+					"protocol": "http",
+					"host": [
+						"196",
+						"216",
+						"68",
+						"98"
+					],
+					"port": "8021",
+					"path": [
+						"crimes-at-location"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
