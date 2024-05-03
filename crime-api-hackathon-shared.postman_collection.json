@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "d697c47f-c492-4412-9b1a-6bf11869a384",
+		"_postman_id": "0f3dd2dd-bb61-4776-b815-fd382c315924",
 		"name": "crime-api-hackathon-shared",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "19922699"
+		"_exporter_id": "16848927"
 	},
 	"item": [
 		{
@@ -21,10 +21,9 @@
 					"raw": "http://policeapi.liquid.tech:8021/crimes?id=1",
 					"protocol": "http",
 					"host": [
-						"196",
-						"216",
-						"68",
-						"98"
+						"policeapi",
+						"liquid",
+						"tech"
 					],
 					"port": "8021",
 					"path": [
@@ -55,10 +54,9 @@
 					"raw": "http://policeapi.liquid.tech:8021/crimes",
 					"protocol": "http",
 					"host": [
-						"196",
-						"216",
-						"68",
-						"98"
+						"policeapi",
+						"liquid",
+						"tech"
 					],
 					"port": "8021",
 					"path": [
@@ -83,10 +81,9 @@
 					"raw": "http://policeapi.liquid.tech:8021/crimes-at-location?latitude=52.643950&longitude=-1.143042",
 					"protocol": "http",
 					"host": [
-						"196",
-						"216",
-						"68",
-						"98"
+						"policeapi",
+						"liquid",
+						"tech"
 					],
 					"port": "8021",
 					"path": [
@@ -130,10 +127,9 @@
 					"raw": "http://policeapi.liquid.tech:8021/crimes-at-location",
 					"protocol": "http",
 					"host": [
-						"196",
-						"216",
-						"68",
-						"98"
+						"policeapi",
+						"liquid",
+						"tech"
 					],
 					"port": "8021",
 					"path": [
