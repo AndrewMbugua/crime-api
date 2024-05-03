@@ -1,4 +1,4 @@
-<h4>
+
 The United Kingdom’s Police API serves as a crucial resource for open government
 initiatives, by providing comprehensive access to data on past criminal activities. With this
 API, users can access data on crimes reported by police, thus promoting transparency and
@@ -28,4 +28,3 @@ functionality would not replace the standard process for lodging a complaint of 
 activity, but instead could be used as a less formal way to track crimes, identify patterns and
 alert users before they enter a crime hotspot.
 
-</h4>
