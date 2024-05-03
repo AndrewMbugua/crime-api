@@ -18,7 +18,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://196.216.68.98:8021/crimes?id=1",
+					"raw": "http://policeapi.liquid.tech:8021/crimes?id=1",
 					"protocol": "http",
 					"host": [
 						"196",
@@ -52,7 +52,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://196.216.68.98:8021/crimes",
+					"raw": "http://policeapi.liquid.tech:8021/crimes",
 					"protocol": "http",
 					"host": [
 						"196",
@@ -80,7 +80,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://196.216.68.98:8021/crimes-at-location?latitude=52.643950&longitude=-1.143042",
+					"raw": "http://policeapi.liquid.tech:8021/crimes-at-location?latitude=52.643950&longitude=-1.143042",
 					"protocol": "http",
 					"host": [
 						"196",
@@ -127,7 +127,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://196.216.68.98:8021/crimes-at-location",
+					"raw": "http://policeapi.liquid.tech:8021/crimes-at-location",
 					"protocol": "http",
 					"host": [
 						"196",
